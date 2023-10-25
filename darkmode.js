@@ -1,18 +1,18 @@
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
-      x.className += " responsive";
+        x.className += " responsive";
     } else {
-      x.className = "topnav";
+        x.className = "topnav";
     }
-  }
+}
 
-  function darkModeToggle() {
+function darkModeToggle() {
     var element = document.body;
     element.classList.toggle("dark-mode");
-  }
+}
 
-  function darkMode() {
+function darkMode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
-  }
+}
