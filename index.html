@@ -17,23 +17,26 @@
 </head>
 
 <body>
-  <div class="topnav" id="myTopnav">
+  <div class="topnav" id="entireside">
     <a href="/">Joshua's site</a>
-    <div class="topnav" id="myTopnav" style="float: right">
+    
+      </a>
+      <div class="inNav" id="myTopnav" style="float: right">
       <a href="/webfolio.html">Webfolio</a>
       <a href="/contact.html">Contact</a>
       <a href="/about.html">About</a>
+      <a href="javascript:void(0);" class="mode-switch" onclick="darkModeToggle()" style="float: right">
+        <i class="fa fa-adjust"></i>
+      </a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
-      </a>
-      <a href="javascript:void(0);" class="mode-switch" onclick="darkModeToggle()">
-        <i class="fa fa-adjust"></i> Toggle Mode
       </a>
     </div>
   </div>
 
   <h1 style="font-family:'JetBrains Mono'; font-size: 36pt">This is the home page welcome to Joshua's site. </h1>
   <script src="/darkmode.js"></script>
+  <script src="/responsive.js"></script>
 </body>
 
 </html>
