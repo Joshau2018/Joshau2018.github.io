@@ -11,8 +11,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Joshua2018's site</title>
   <style>
-  </style>
-  </style>
+    body {
+      background-color: rgb(58, 59, 62);
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .paper-card {
+      background-color: #1b1a1a; /* Background color for the paper-like card */
+      border: 1px solid #dddddd00;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(190, 178, 178, 0);
+    }
+
+    h1,
+    h2,
+    p {
+      margin-bottom: 20px;
+    }
+
+    .dark-mode {
+      background-color: rgb(57, 53, 58);
+      color: rgb(239, 236, 236);
+    }
+
+    .dark-mode a[href="/memoir.html"] {
+      color: rgb(215, 61, 61);
+    }
+
+    .dark-mode-section-active {
+      background-color: rgb(233, 255, 249); /* Adjust the background color for the specific section */
+      color: rgb(0, 0, 0); /* Adjust the text color for the specific section */
+    }
+    .paper-card {
+  margin-top: 20px; /* Adjust the value to your preference for spacing */
+}
+    </style>
 </head>
 
 <body>
@@ -30,12 +67,27 @@
   </div>
    
   </div>
+  <div class="paper-card dark-mode-section-active">
   <h1 style="line-height: 2em; font-family:'JetBrains Mono'; font-size: 3vh; text-align: center;">The Grand TopGolf Expedition</h1>
   <p style="line-height: 2em; font-family:'JetBrains Mono'; font-size: 2vh; text-align: center;"><b>“Success in this game depends less on strength of body than strength of mind and character.”</b> <br>  <b><i>- Arnold Palmer</i></b></p>
   <p style="line-height: 2em; text-indent: 3vh; font-family:'JetBrains Mono'; font-size: 2.5vh; margin-left: 3vh; margin-right: 3vh;">This quote was proven to be so true in my golfing expedition. It was the weekend me and a couple of friends decided that we should go to topgolf the following week. One thing led to another and we had a group of 5. We then scheduled to meet up at TopGolf on July 18, 2023, a Tuesday, at 10:30 a.m. We decided on Tuesday, because every Tuesday the time at TopGolf is half-priced. I say, “time,” since TopGolf charges based on the amount of time spent playing there, and not by per person. Soon, I would be embarking on an expedition to TopGolf, not knowing how much it would affect my life.</p>
+  <p style="line-height: 2em; text-indent: 3vh; font-family:'JetBrains Mono'; font-size: 2.5vh; margin-left: 3vh; margin-right: 3vh;">But first, what is top golf? TopGolf started when two brothers, Steve Joliffe and Dave Joliffe, decided that standard driving ranges are boring, and decided to create a more engaging and trackable way to practice. Thus, they made a high tech game that had sensors that tracked where the distance and direction they went. Eventually, leading to the idea of adding targets to aim at. This was their very first actual game mode called TopGolf. This led to various other game modes such as: Angry Birds, TopScore, and Quick 9. These game modes would eventually be worth billions. TopGolf is an amazing place that offers its players of diverse experience levels a way to enjoy golf and to work on their skills.</p>
+</div>
+<div class="paper-card dark-mode-section-active">
+    <p style="line-height: 2em; text-indent: 3vh; font-family:'JetBrains Mono'; font-size: 2.5vh; margin-left: 3vh; margin-right: 3vh;">The day has arrived, it is now July 18, 2023, the time in central time is nine a.m. The weather is slightly cloudy with the temperature being in the high 80’s. Zakk, the mastermind in producing the idea of going to TopGolf, called me. He told me that his sister is going to come pick me up in fifteen minutes. When they finally arrived at my house Zakk got out to greet me. Zakk had a fresh new hair cut than the last time I saw him. He was wearing black prescription glasses. He had on a black button up shirt with black slacks and Jordan 11’s. Zakk’s height is about 6 foot 3 inches. We spoke for a couple of seconds until I got in the car. I saw Brendon sitting in the back seat eating Hostess Chocolate Donuts. He offered to share. I rejected his offer, however. Brendon was wearing a T-shirt with blue jeans and crocs. Brendon is also tall, 6 foot 2 inches. We then left to go to TopGolf.</p>
+  </div>
+<script>
+function darkModeToggle() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
 
-</a>
-<script src="/darkmode.js"></script>
+    var sections = document.querySelectorAll(".paper-card");
+    sections.forEach(function(section) {
+      section.classList.toggle("dark-mode-section-active");
+    });
+  }
+</script>
+<script src="/navbar.js"></script>
 </body>
 
 </html>
