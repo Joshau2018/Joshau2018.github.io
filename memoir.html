@@ -44,7 +44,19 @@
       p {
         margin-bottom: 20px;
       }
-
+      img {
+        display: block;
+        margin-left: 1vh;
+        margin-right: 1vh;
+        max-width: 100%; /* Make sure images don't exceed their container's width */
+      }
+      .image-container {
+        display: flex;
+        justify-content: center; /* Center the images horizontally */
+        align-items: center; /* Center the images vertically */
+        flex-wrap: wrap;/* Allow the images to wrap to the next line on smaller screens */
+        margin-top: 20px; /* Adjust the margin as needed */
+      }
       .dark-mode {
         background-color: rgb(57, 53, 58);
         color: rgb(239, 236, 236);
@@ -327,12 +339,18 @@
         excursion at TopGolf.
       </p>
     </div>
-    <img src="/MediaAssets/topgolfenterance.jpeg"
-    alt="The enterance to the building"
-    title="The enterance to the building">
-    <img src="/MediaAssets/view.jpeg"
-    alt="The view when golfing"
-    title="The view from the balcony">
+    <div class="image-container">
+      <img
+        src="/MediaAssets/topgolfenterance.jpeg"
+        alt="The enterance to the building"
+        title="The enterance to the building"
+      />
+      <img
+        src="/MediaAssets/view.jpeg"
+        alt="The view when golfing"
+        title="The view from the balcony"
+      />
+    </div>
     <div class="paper-card dark-mode-section-active">
       Sources:
       <p
