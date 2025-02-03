@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steps in Planning for Making an AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono|Roboto" rel="stylesheet">
+    <style>
+        /* Default Light Mode Styles */
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            border-bottom: 2px solid #7289da;
+            padding-bottom: 10px;
+        }
+        h2, h3 {
+            font-weight: bold; /* This makes the headings bold */
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.6rem;
+            color: #7289da;
+        }
+        h3 {
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        p {
+            line-height: 1.8;
+            text-indent: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .sources {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            border-top: 1px solid #7289da;
+            padding-top: 10px;
+        }
+        .sources a {
+            color: #1a73e8; /* Blue color for light mode */
+            text-decoration: none;
+        }
+        .sources a:hover {
+            text-decoration: underline;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .toggle {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #2c2f33;
+            color: #ffffff;
+        }
+        body.dark-mode .container {
+            background: #1e2124;
+        }
+        body.dark-mode .nav a {
+            color: white;
+        }
+        body.dark-mode .sources a {
+            color: #50fa7b; /* Green color for dark mode */
+        }
+        body.dark-mode h1 {
+            border-bottom: 2px solid #7289da;
+        }
+        body.dark-mode h2, body.dark-mode h3 {
+            color: #7289da;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/webfolio.html">Back</a>
+            <a href="#" onclick="toggleDarkMode()">Toggle Dark Mode</a>
+        </div>
+
+        <h1>Step One in Planning for Making an AI</h1>
+        <p>
+            The most important question to answer before creating artificial intelligence (AI) is: What do you want the AI to do? 
+            Some answers might be that you just want the AI to create cool images, like DALL·E, or maybe you want it to be able to chat with you like Chat-GPT. No matter what it is, once you decide what you want, you must determine what the AI will be capable of and the functionalities.
+        </p>
+
+        <h2>Three Types of AI Based on Capabilities</h2>
+        <ul>
+            <li>
+                <h3>Narrow AI</h3>
+                <p>Typically only used for completing single or narrowed tasks. This allows the AI to complete the task way faster than a human could. In addition, this is the only way an AI can gain knowledge in today's world.</p>
+            </li>
+            <li>
+                <h3>General/Strong AI</h3>
+                <p>The concept of this AI is that it can use previous skills learned to perform one task to do another without human intervention. This is a theoretical concept yet to be created, but if you are currently working on an AI that is going to have to be adaptive you might want to try being the first.</p>
+            </li>
+            <li>
+                <h3>Super AI</h3>
+                <p>The greatness of this one is yet to be realized but once realized AI will have the ability to think, reason, make choices, and possess consciousness superior to that of a human. However, just because this sounds grand it might be terrifying for others, as such, when creating an AI such as this the creator should be very careful.</p>
+            </li>
+        </ul>
+
+        <h2>Five Types of AI Based on Functionalities</h2>
+        <ul>
+            <li>
+                <h3>Reactive Machine AI</h3>
+                <p>These types of AI have no access to past information. Instead, the AI makes decisions using statistical math and analyzing vast amounts of data currently available to them. An example is a chess-playing AI that analyzes the pieces on the board to make decisions.</p>
+            </li>
+            <li>
+                <h3>Limited Memory AI</h3>
+                <p>This type of AI can recall past events and outcomes in addition to monitoring specific objects and situations over time. However, even though Limited Memory AI can store information, the amount of information is finite and there is an expiration. Some examples are Siri and autonomous cars.</p>
+            </li>
+            <li>
+                <h3>Transformer Based AI</h3>
+                <p>This AI focuses on a large data set already in possession before user interaction. This is important due to the AI not learning from user interaction, rather it has already learned information. Chat-GPT and DALL-E are two examples of this.</p>
+            </li>
+            <li>
+                <h3>Theory of Mind AI</h3>
+                <p>This is a type of AI that falls under the General AI. Yet to be completed, but once completed, the AI will be able to understand thoughts and emotions of other entities. The purpose is to have AI simulate human-like relationships. If you are working on an AI that will help you understand yourself better, then this is the AI for you.</p>
+            </li>
+            <li>
+                <h3>Self-Aware AI</h3>
+                <p>This AI falls under the Super AI category. It is still theoretical like Theory of Mind. A key difference is that rather than just understanding others' emotions, the Self-Aware AI will be self-aware. In addition, it will have its own unique character traits. Everyone has probably seen movies of humanoid robots—well, this is a key component to giving it humane characteristics.</p>
+            </li>
+        </ul>
+
+        <p>Once you have decided what the AI will do, then you are ready for the next step of the planning of the creation of an AI.</p>
+
+        <div class="sources">
+            <strong>Sources:</strong>
+            <p>
+                <a href="https://www.ibm.com/think/topics/artificial-intelligence-types " target="_blank">IBM: Artificial Intelligence Types</a>
+            </p>
+            <p>
+                <a href="https://medium.com/data-science-at-microsoft/generative-ai-openai-and-chatgpt-what-are-they-3c80397062c4 " target="_blank">Medium: Generative AI OpenAI and ChatGPT What Are They</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
