@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Example blog data (Replace this with an API call if needed)
     const blogs = [
       {
-        title: "How to Build a Web App",
-        image: "https://source.unsplash.com/300x200/?technology",
-        description: "A step-by-step guide on how to create a web application.",
+        title: "Step One in planning for making an AI How to Build a Web App",
+        image: "/MediaAssets/ArtificialAIBluePrint.jpg",
+        description: "A step one in creationg a blueprint for an AI.",
         link: "/blog/Step-one-in-planning-for-making-an-AI .html",
       },
     ];
