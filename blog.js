@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         title: "Step One in planning for making an AI How to Build a Web App",
         image: "/MediaAssets/ArtificialAIBluePrint.jpg",
-        description: "A step one in creationg a blueprint for an AI.",
+        description: "Step one in creationg a blueprint for an AI.",
         link: "/blog/Step-one-in-planning-for-making-an-AI .html",
       },
     ];
