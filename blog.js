@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       {
         title: "Step Two of making a blueprint for an AI",
-        image: "/MediaAssets/ArtificialAIBluePrint.jpg",
+        image: "MediaAssets/roboticPython.jpg",
         description: "This is the second step in planning on how to make your own AI",
         link: "blog/Step-Two-In-Planning-for-making-an-AI.html",
       },
