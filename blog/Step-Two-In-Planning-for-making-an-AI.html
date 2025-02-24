@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steps in Planning for Making an AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono|Roboto" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            border-bottom: 2px solid #7289da;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.6rem;
+            color: #7289da;
+            margin-top: 20px;
+        }
+        p {
+            line-height: 1.8;
+            text-indent: 20px;
+        }
+        .sources {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            border-top: 1px solid #7289da;
+            padding-top: 10px;
+        }
+        .sources p {
+            text-indent: -20px;
+            margin-left: 20px;
+        }
+        .sources a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .sources a:hover {
+            text-decoration: underline;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .toggle {
+            text-align: center;
+            margin-top: 20px;
+        }
+        body.dark-mode {
+            background-color: #2c2f33;
+            color: #ffffff;
+        }
+        body.dark-mode .container {
+            background: #1e2124;
+        }
+        body.dark-mode .nav a {
+            color: white;
+        }
+        body.dark-mode .sources a {
+            color: #50fa7b;
+        }
+        body.dark-mode h1 {
+            border-bottom: 2px solid #7289da;
+        }
+        body.dark-mode h2 {
+            color: #7289da;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/blog.html">Back</a>
+            <a href="#" onclick="toggleDarkMode()">Toggle Dark Mode</a>
+        </div>
+        
+        <h1>Step Two in Planning for Making an AI</h1>
+        <p>After completing step one in the planning process of making your own AI, the second step is much simpler: choosing which programming language to use.</p>
+        <p>If you look online for the best language to program an AI, I guarantee that 99% of the sources will recommend Python. This is because most major AI companies rely on Python for their AI development—for example, OpenAI, Google, Netflix, Spotify, and NASA (Jaydevs.com). This does not mean that they use only Python; in fact, some use Python in combination with other languages, such as C++, CUDA, or Rust.</p>
+        <p>The reason behind this is that although Python is very easy to use, it is not as powerful as some other languages in certain areas, which creates a need for more powerful languages. However, a more powerful language is generally required only for very complex AIs. For an introductory AI project, Python is definitely the best choice due to its simplicity for beginners. Python is user-friendly because of its vast number of tutorials and libraries that make it very easy to perform the tasks required for AI development (GeeksforGeeks).</p>
+        <p>Overall, whether you are a beginner at AI and programming in general or a more experienced programmer, Python is highly recommended because of its flexibility and simplicity (GeeksforGeeks). Using other languages is an option and can be manageable, especially if you have experience with them; however, Python should still be your top choice due to the wide variety of resources available to help you (GeeksforGeeks).</p>
+        <p>Once you have decided which language to use for programming your AI, you are ready to begin the next step of the planning phase.</p>
+        
+        <div class="sources">
+            <strong>Works Cited</strong>
+            <p>GeeksforGeeks. "Python for AI." <em>GeeksforGeeks</em>, 15 Apr. 2024, 
+            <a href="https://www.geeksforgeeks.org/python-for-ai/" target="_blank">www.geeksforgeeks.org/python-for-ai/</a>.</p>
+            <p>Fetisov, Evgeniy, and Darya Birukova. "Top 30 Companies That Use Python for Success and Profit." <em>JayDevs</em>, 8 Aug. 2023, 
+            <a href="https://jaydevs.com/top-companies-that-use-python/" target="_blank">jaydevs.com/top-companies-that-use-python/</a>.</p>
+        </div>
+    </div>
+    
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
