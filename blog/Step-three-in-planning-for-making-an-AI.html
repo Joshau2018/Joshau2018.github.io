@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steps in Planning for Making an AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono|Roboto" rel="stylesheet">
+    <style>
+        .sources p {
+            text-indent: -20px;
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            border-bottom: 2px solid #7289da;
+            padding-bottom: 10px;
+        }
+        h2, h3 {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.6rem;
+            color: #7289da;
+        }
+        h3 {
+            font-size: 1.3rem;
+        }
+        p {
+            line-height: 1.8;
+            text-indent: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .sources {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            border-top: 1px solid #7289da;
+            padding-top: 10px;
+        }
+        .sources a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .sources a:hover {
+            text-decoration: underline;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .toggle {
+            text-align: center;
+            margin-top: 20px;
+        }
+        body.dark-mode {
+            background-color: #2c2f33;
+            color: #ffffff;
+        }
+        body.dark-mode .container {
+            background: #1e2124;
+        }
+        body.dark-mode .nav a {
+            color: white;
+        }
+        body.dark-mode .sources a {
+            color: #50fa7b;
+        }
+        body.dark-mode h1 {
+            border-bottom: 2px solid #7289da;
+        }
+        body.dark-mode h2, body.dark-mode h3 {
+            color: #7289da;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/blog.html">Back</a>
+            <a href="#" onclick="toggleDarkMode()">Toggle Dark Mode</a>
+        </div>
+
+        <h1>Step Three in Planning for Making an AI</h1>
+
+        <p>
+            After selecting the programming language for your AI, the next step is to decide whether you'll build your own API or use an existing one. But what exactly is an API, and why does it matter?
+        </p>
+        <p>
+            An API, or Application Programming Interface, acts as a bridge that allows different software systems to communicate. This is especially useful when users interact with your AI through a front-end interface. For example, OpenAI offers APIs that developers can integrate into apps to process text, images, or audio. These APIs handle the communication with the AI model and return results to the user interface.
+        </p>
+        <p>
+            In short, an API connects the backend—the AI engine—with the frontend—the part users interact with.
+        </p>
+
+        <h2>How to Create an API</h2>
+        <p>
+            If you're using Python for your AI and HTML/CSS/JS for the frontend, a framework like Flask or FastAPI is a great option. These frameworks allow you to define Python functions that send and receive data from the frontend. While it’s possible to build an API from scratch, that route is more complex and requires a deeper understanding of backend development and client-server communication.
+        </p>
+
+        <h2>Pros and Cons of Using an API</h2>
+        <ul>
+            <li>
+                <h3>Pros:</h3>
+                <ul>
+                    <li>Enables smooth communication between the backend and frontend.</li>
+                    <li>Improves encapsulation by exposing only what's necessary <em>(Twingate)</em>.</li>
+                    <li>Offers excellent scalability as your application grows.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Cons:</h3>
+                <ul>
+                    <li>Can be complex to design and implement correctly.</li>
+                    <li>Debugging is challenging since issues may occur in the frontend, API, or backend.</li>
+                    <li>If not secured properly, APIs can introduce security vulnerabilities—though this is less critical in small personal projects.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>Despite the challenges, APIs are a powerful tool that can make your AI more flexible, accessible, and ready to scale.</p>
+
+        <div class="sources">
+            <strong>Sources (MLA format):</strong>
+            <p>Amazon Web Services. <em>“What Is an API? - API Beginner’s Guide - AWS.”</em> Amazon Web Services, Inc., 2024. <a href="https://aws.amazon.com/what-is/api/" target="_blank">https://aws.amazon.com/what-is/api/</a>.</p>
+            <p>“Pros and Cons of API Integration - Tips from AlterEGO Developer.” <em>Alterego.digital</em>, 2023. <a href="https://alterego.digital/blog/api-integration-pros-and-cons" target="_blank">https://alterego.digital/blog/api-integration-pros-and-cons</a>.</p>
+            <p>“What Is Encapsulation? | Twingate.” <em>Twingate</em>, 2024. <a href="https://www.twingate.com/blog/glossary/Encapsulation" target="_blank">https://www.twingate.com/blog/glossary/Encapsulation</a>.</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>

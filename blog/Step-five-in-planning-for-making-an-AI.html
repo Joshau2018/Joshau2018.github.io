@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steps in Planning for Making an AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono|Roboto" rel="stylesheet">
+    <style>
+        .sources p {
+            text-indent: -20px;
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            border-bottom: 2px solid #7289da;
+            padding-bottom: 10px;
+        }
+        h2, h3 {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.6rem;
+            color: #7289da;
+        }
+        h3 {
+            font-size: 1.3rem;
+        }
+        p {
+            line-height: 1.8;
+            text-indent: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .sources {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            border-top: 1px solid #7289da;
+            padding-top: 10px;
+        }
+        .sources a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .sources a:hover {
+            text-decoration: underline;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .toggle {
+            text-align: center;
+            margin-top: 20px;
+        }
+        body.dark-mode {
+            background-color: #2c2f33;
+            color: #ffffff;
+        }
+        body.dark-mode .container {
+            background: #1e2124;
+        }
+        body.dark-mode .nav a {
+            color: white;
+        }
+        body.dark-mode .sources a {
+            color: #50fa7b;
+        }
+        body.dark-mode h1 {
+            border-bottom: 2px solid #7289da;
+        }
+        body.dark-mode h2, body.dark-mode h3 {
+            color: #7289da;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/blog.html">Back</a>
+            <a href="#" onclick="toggleDarkMode()">Toggle Dark Mode</a>
+        </div>
+
+        <h1>Step Five in Planning for Making an AI</h1>
+        <p>
+            After completing step 4, you might be wondering how you are going to create the front end, or user interface.
+        </p>
+        <p>
+            If you want to use Hypertext Markup Language (HTML) with some JavaScript (JS) and Cascading Style Sheets (CSS) to create a web page for your AI to interact with, then I recommend finding a tutorial on YouTube with a design you like. After you find a design, you can base the design of your front end on it by looking at the documentation and revising the page to include the API you created.
+        </p>
+        <p>
+            If you want to use a different approach, like using Swift, Flutter, or React Native to create a mobile interface, then depending on the device you’re building for, you will need to consider which tool would work best.
+        </p>
+        <p>
+            If the device is iOS, then Swift, React Native, and Flutter all work. Swift is the primary language used for iOS development. The tools you’ll use with Swift are:
+        </p>
+        <ul>
+            <li><strong>SwiftUI:</strong> A modern UI toolkit where developers describe what the UI should look like. It has limited backward compatibility but uses concise and easy-to-understand code (medium.com).</li>
+            <li><strong>UIKit:</strong> The original UI framework where developers specify step-by-step instructions to create and update UI components. It has full backward compatibility but a more complex and difficult-to-understand code structure (medium.com).</li>
+        </ul>
+        <p>
+            If you want to make it cross-platform, then React Native and Flutter are great options.
+        </p>
+        <ul>
+            <li><strong>React Native:</strong> A JavaScript library for building user interfaces (reactnative.dev). Some applications built using React Native include Discord, Microsoft Teams, Xbox App, PlayStation App, and the Amazon mobile app (reactnative.dev).</li>
+            <li><strong>Flutter:</strong> Uses the Dart programming language and was developed by Google (amazon.com). Flutter is open source and supported by Google. It's used in applications like Google Classroom, Google Pay, Supercell, Universal Studios, PUBG Mobile, and eBay.</li>
+        </ul>
+        <p>
+            Regardless of which front end you choose, reviewing examples of other user interfaces can help you decide how to design your own. After deciding on your front end design, you’ll need to figure out how to integrate your API so information can pass between the user and the AI. This decision is based entirely on personal preference.
+        </p>
+        <p>
+            This concludes the planning process, and now you’re ready to start building your AI.
+        </p>
+
+        <div class="sources">
+            <strong>Sources (MLA format):</strong>
+            <p>Eltaher, Mohamed Ahmed. <em>“SwiftUI vs UIKit: A Comprehensive Comparison - Mohamed Ahmed Eltaher - Medium.”</em> <span style="font-style: normal;">Medium</span>, 8 Mar. 2024. <a href="https://medium.com/@mohamed.ahmedeltaher/swiftui-vs-uikit-a-comprehensive-comparison-92f58507495f" target="_blank">https://medium.com/@mohamed.ahmedeltaher/swiftui-vs-uikit-a-comprehensive-comparison-92f58507495f</a>.</p>
+            <p>React Native. <em>“React Native · A Framework for Building Native Apps Using React.”</em> <span style="font-style: normal;">Reactnative.dev</span>, 2024. <a href="https://reactnative.dev/" target="_blank">https://reactnative.dev/</a>.</p>
+            <p>Amazon. <em>“What Is Flutter? Flutter Explained - AWS.”</em> <span style="font-style: normal;">Amazon Web Services, Inc.</span>, 2024. <a href="https://aws.amazon.com/what-is/flutter/" target="_blank">https://aws.amazon.com/what-is/flutter/</a>.</p>
+            <p>Flutter. <em>“Flutter - Beautiful Native Apps in Record Time.”</em> <span style="font-style: normal;">Flutter.dev, Google</span>, 2024. <a href="https://flutter.dev/" target="_blank">https://flutter.dev/</a>.</p>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>

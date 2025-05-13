@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steps in Planning for Making an AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono|Roboto" rel="stylesheet">
+    <style>
+        .sources p {
+            text-indent: -20px;
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            border-bottom: 2px solid #7289da;
+            padding-bottom: 10px;
+        }
+        h2, h3 {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.6rem;
+            color: #7289da;
+        }
+        h3 {
+            font-size: 1.3rem;
+        }
+        p {
+            line-height: 1.8;
+            text-indent: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .sources {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            border-top: 1px solid #7289da;
+            padding-top: 10px;
+        }
+        .sources a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .sources a:hover {
+            text-decoration: underline;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .toggle {
+            text-align: center;
+            margin-top: 20px;
+        }
+        body.dark-mode {
+            background-color: #2c2f33;
+            color: #ffffff;
+        }
+        body.dark-mode .container {
+            background: #1e2124;
+        }
+        body.dark-mode .nav a {
+            color: white;
+        }
+        body.dark-mode .sources a {
+            color: #50fa7b;
+        }
+        body.dark-mode h1 {
+            border-bottom: 2px solid #7289da;
+        }
+        body.dark-mode h2, body.dark-mode h3 {
+            color: #7289da;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/blog.html">Back</a>
+            <a href="#" onclick="toggleDarkMode()">Toggle Dark Mode</a>
+        </div>
+
+        <h1>Step Four in Planning for Making an AI</h1>
+        <p>
+            If you decide that you need an API so your AI and user interface can communicate with each other, then how are you going to make an API?
+        </p>
+        <p>
+            If you’re using Python, then you might use Flask or FastAPI.
+        </p>
+        <p>
+            Flask is good for small to medium-sized projects. So, if you plan on building a simple demo of an AI, then Flask might be the best choice. If you wish to create a large-scale AI, then FastAPI might be better due to its speed and automatic data validation. Although FastAPI is faster, it’s newer, so it may be more difficult to find support if you’re a beginner. Flask, on the other hand, is older and has a larger community, making it easier for beginners to learn.
+        </p>
+
+        <h2>Use Case Differences</h2>
+        <ul>
+            <li><strong>Flask:</strong> Better if you are building a website using HTML (turing.com).</li>
+            <li><strong>FastAPI:</strong> Better if you plan on using React/Vue or a separate app for the frontend (turing.com).</li>
+        </ul>
+
+        <h2>Speed</h2>
+        <ul>
+            <li><strong>Flask:</strong> Slower than FastAPI.</li>
+            <li><strong>FastAPI:</strong> Faster than Flask.</li>
+        </ul>
+
+        <h2>Storage</h2>
+        <ul>
+            <li><strong>Flask:</strong> Takes up slightly less space.</li>
+            <li><strong>FastAPI:</strong> Only uses a couple more megabytes.</li>
+        </ul>
+
+        <h2>Community</h2>
+        <ul>
+            <li><strong>Flask:</strong> Older and well-established community.</li>
+            <li><strong>FastAPI:</strong> Newer, but actively growing community.</li>
+        </ul>
+
+        <h2>Complexity of Learning</h2>
+        <ul>
+            <li><strong>Flask:</strong> Easier syntax, more beginner-friendly (geeksforgeeks.com).</li>
+            <li><strong>FastAPI:</strong> Requires knowledge of asynchronous programming and Pydantic, making it harder to learn (geeksforgeeks.com).</li>
+        </ul>
+
+        <h2>Overall</h2>
+        <p>
+            Flask is an excellent choice if your AI is low-scale, uses HTML for the frontend, and you don’t have much experience with asynchronous programming. In contrast, FastAPI is better if you're willing to learn asynchronous programming and want to build a medium to large-scale AI.
+        </p>
+
+        <div class="sources">
+            <strong>Sources (MLA format):</strong>
+            <p>Turing Staff. <em>“FastAPI vs Flask: Comparison Guide to Making a Better Decision.”</em> <span style="font-style: normal;">Www.turing.com</span>, 11 Feb. 2022. <a href="https://www.turing.com/kb/fastapi-vs-flask-a-detailed-comparison" target="_blank">https://www.turing.com/kb/fastapi-vs-flask-a-detailed-comparison</a>.</p>
+            <p>“What Is Encapsulation? | Twingate.” <em>Twingate.com</em>, 2024. <a href="https://www.twingate.com/blog/glossary/Encapsulation" target="_blank">https://www.twingate.com/blog/glossary/Encapsulation</a>.</p>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
