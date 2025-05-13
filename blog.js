@@ -13,25 +13,25 @@ document.addEventListener("DOMContentLoaded", function () {
         title: "Step Two of making a blueprint for an AI",
         image: "MediaAssets/roboticPython.jpg",
         description: "This is the second step in planning on how to make your own AI",
-        link: "blog/Step-Two-In-Planning-for-making-an-AI.html",
+        link: "blog/Step-three-in-planning-for-making-an-AI.html",
       },
       {
         title: "Step Three of making a blueprint for an AI",
-        image: "MediaAssets/roboticPython.jpg",
-        description: "This is the thirf step in planning on how to make your own AI",
-        link: "blog/Step-three-In-Planning-for-making-an-AI.html",
+        image: "MediaAssets/BlogPost3Cover.jpg",
+        description: "This is the third step in planning on how to make your own AI",
+        link: "blog/Step-three-in-planning-for-making-an-AI.html",
       },
       {
         title: "Step Four of making a blueprint for an AI",
-        image: "MediaAssets/roboticPython.jpg",
+        image: "MediaAssets/BlogPost4_Cover.png",
         description: "This is the fourth step in planning on how to make your own AI",
-        link: "blog/Step-Two-In-Planning-for-making-an-AI.html",
+        link: "blog/Step-four-in-planning-for-making-an-AI.html",
       },
       {
         title: "Step Five of making a blueprint for an AI",
-        image: "MediaAssets/roboticPython.jpg",
+        image: "MediaAssets/BlogPost5_Cover.jpg",
         description: "This is the fifth step in planning on how to make your own AI",
-        link: "blog/Step-Two-In-Planning-for-making-an-AI.html",
+        link: "blog/Step-five-in-planning-for-making-an-AI.html",
       },
     ];
   
